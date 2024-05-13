@@ -35,8 +35,8 @@ public class Seminar6Application {
 				profRepo.save(pr1);
 				profRepo.save(pr2);
 
-				Student st1 = new Student("Janis", "Berzins");
-				Student st2 = new Student("Liga", "Jauka");
+				Student st1 = new Student("Zintis", "Berzins");
+				Student st2 = new Student("Matis", "Jaukais");
 				studRepo.save(st1);
 				studRepo.save(st2);
 
