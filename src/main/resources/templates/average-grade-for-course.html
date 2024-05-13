@@ -1,0 +1,12 @@
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body>
+<p th:text = "${title}"></p>
+<table>
+    <tr th:each="tempG: ${myobj}">
+        <td th:text="'Average Grade: ' + ${myobj}"></td>
+
+    </tr>
+</table>
+</body>
+</html>
